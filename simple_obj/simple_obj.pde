@@ -10,6 +10,9 @@ void setup() {
 void draw() {
   background(#00FF00);
   lights(); // add lights to have a more 3D look
-  shape(cappuccetto,x+30,100); // draw the shape
+  translate(x+30, 100, 0);
+  rotateZ(PI);
+  
+  shape(cappuccetto); // draw the shape
   x = x+xStep;
 }
