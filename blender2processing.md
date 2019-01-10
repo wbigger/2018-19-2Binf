@@ -8,17 +8,17 @@ Per poter far leggere i modelli Blender a Processing, dobbiamo sapere che:
 - Processing lavora all'interno di una __cartella di progetto__, con lo stesso nome del progetto 
 - Processing vuole che, all'interno della cartella di progetto, tutti i modelli siano dentro una sottocartella chiamata `data`
 
-Sapendo questo, dobbiamo seguire questi passi:
-1. da Processing, salvare il progetto; verrà creata una cartella con lo stesso nome del progetto
+## Guida passo passo
+1. Da Processing, salvare il progetto; verrà creata una cartella con lo stesso nome del progetto
 
 > Esempio: da Processing, salvo il progetto nella cartella `Documenti/2Binf/capobianco` con il nome `Hello`;
 verrà creata la cartella `Documenti/2Binf/capobianco/Hello` con all'interno il file `Hello.pde` contenente il codice del mio progetto
 
-2. da Esplora Risorse di Windows, aprire la cartella del progetto e creare una sottocartella `data` al suo interno
+2. Da Esplora Risorse di Windows, aprire la cartella del progetto e creare una sottocartella `data` al suo interno
 
 > Esempio: creo la nuova cartella `Documenti/2Binf/capobianco/Hello/data`
 
-3. da Blender, andare su `File->Export->Wavefront (.obj)` e seleziono la cartella `data` che ho appena creato
+3. Da Blender, andare su `File->Export->Wavefront (.obj)` e seleziono la cartella `data` che ho appena creato
 
 > Esempio: seleziono la cartella `Documenti/2Binf/capobianco/Hello/data`
 
